@@ -58,6 +58,12 @@
                 android:entryValues="@array/lockscreen_cover_filter_values"
                 android:defaultValue="0" />
 
+            <com.dirtyunicorns.support.preferences.SecureSettingSwitchPreference
+                android:key="lockscreen_visualizer"
+                android:title="@string/lockscreen_visualizer_title"
+                android:summary="@string/lockscreen_visualizer_summary"
+                android:defaultValue="false"/>
+
         </PreferenceCategory>
 
 </PreferenceScreen>

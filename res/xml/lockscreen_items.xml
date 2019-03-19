@@ -51,6 +51,13 @@
                 android:title="@string/double_tap_sleep_lockscreen"
                 android:defaultValue="false" />
 
+            <com.dirtyunicorns.support.preferences.SystemSettingListPreference
+                android:key="lockscreen_album_art_filter"
+                android:title="@string/lockscreen_cover_filter_title"
+                android:entries="@array/lockscreen_cover_filter_entries"
+                android:entryValues="@array/lockscreen_cover_filter_values"
+                android:defaultValue="0" />
+
         </PreferenceCategory>
 
 </PreferenceScreen>
